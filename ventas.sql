@@ -10,7 +10,7 @@
 -- Usar la base de datos
 USE Sistema_Ventas;  -- Cambiar por el nombre de la base de datos que se esté utilizando
 
--- Eliminar procedimientos almacenados si existen
+
 DROP PROCEDURE IF EXISTS sp_ingven;
 DROP PROCEDURE IF EXISTS sp_modven;
 DROP PROCEDURE IF EXISTS sp_delven;
